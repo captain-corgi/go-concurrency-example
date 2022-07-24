@@ -35,3 +35,8 @@ func CurrentDateTime(wg *sync.WaitGroup) string {
 	// Return the current date and time with goroutine index
 	return time.Now().Format(time.RFC3339)
 }
+
+// Sum two numbers
+func Sum(a, b int) int {
+	return a + b
+}
